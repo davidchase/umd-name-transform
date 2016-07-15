@@ -1,5 +1,7 @@
 # umd-name-transform
-Transform stream for UMD bundle names
+> Transform stream for UMD bundle names
+
+![no-sudden-unpublish](https://img.shields.io/badge/no%20sudden-unpublish%20%E2%9A%93-ff69b4.svg?style=flat-square)
 
 ## Why
 
@@ -38,4 +40,11 @@ rollup -c --name '@somecope/somepackagename' | umd-name-transform -o dist/somepa
 
 This will transform the output from rollup and write to `dist/somepackagename.js`
 
-**Note** this module assumes that you have created the given directories in the above case its `dist`
+**Note** this module assumes that you have created the given directories in the above case its `dist` if your are using cli:
+
+```sh
+mkdir -p nameOfDir && rollup -c --name '@somecope/somepackagename' | umd-name-transform -o nameOfDir/somepackagename.js
+```
+
+## TODO
+- [ ] Programmatic API support
