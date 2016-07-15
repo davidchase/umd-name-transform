@@ -8,7 +8,7 @@ const head = xs => xs[0]
 const last = xs => xs[xs.length - 1]
 const dashesToCamel = str => str.replace(/-(.)/g, match => last(match).toUpperCase())
 
-const plugin = new Transform({
+const umdTransform = new Transform({
   transform(chunk, encoding, callback) {
     const str = String(chunk)
     const match = head(str.match(/global[a-zA-Z-.@/]+/g))
@@ -19,4 +19,4 @@ const plugin = new Transform({
   }
 })
 
-process.stdin.pipe(plugin).pipe(fs.createWriteStream(path.resolve(__dirname, last(process.argv))))
+process.stdin.pipe(umdTransform).pipe(fs.createWriteStream(path.resolve(__dirname, last(process.argv))))
