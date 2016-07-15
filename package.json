@@ -1,6 +1,6 @@
 {
   "name": "umd-name-transform",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Transform stream for UMD bundle names",
   "bin": "./bin/umd-name-transform",
   "scripts": {
