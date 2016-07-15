@@ -1,7 +1,7 @@
 # umd-name-transform
 > Transform stream for UMD bundle names
 
-![no-sudden-unpublish](https://img.shields.io/badge/no%20sudden-unpublish%20%E2%9A%93-ff69b4.svg?style=flat-square)
+![no-sudden-unpublish](https://img.shields.io/badge/no%20sudden-unpublish%20%E2%9A%93-ff69b4.svg?style=flat)
 
 ## Why
 
