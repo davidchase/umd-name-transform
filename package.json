@@ -1,0 +1,25 @@
+{
+  "name": "umd-name-transform",
+  "version": "1.0.0",
+  "description": "Transform stream for UMD bundle names",
+  "bin": "./bin/umd-name-transform",
+  "scripts": {
+    "test": "tape"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidchase/umd-name-transform.git"
+  },
+  "keywords": [
+    "UMD",
+    "rollup",
+    "stream",
+    "transform"
+  ],
+  "author": "David Chase <davidchase03@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidchase/umd-name-transform/issues"
+  },
+  "homepage": "https://github.com/davidchase/umd-name-transform#readme"
+}
