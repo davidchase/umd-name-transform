@@ -48,3 +48,4 @@ mkdir -p nameOfDir && rollup -c --name '@somecope/somepackagename' | umd-name-tr
 
 ## TODO
 - [ ] Programmatic API support
+- [ ] Add tests to avoid typos    
