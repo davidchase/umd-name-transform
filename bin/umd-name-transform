@@ -19,4 +19,4 @@ const umdTransform = new Transform({
   }
 })
 
-process.stdin.pipe(umdTransform).pipe(fs.createWriteStream(path.resolve(process.cmd(), last(process.argv))))
+process.stdin.pipe(umdTransform).pipe(fs.createWriteStream(path.resolve(process.cwd(), last(process.argv))))
